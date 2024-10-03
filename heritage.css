@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+
+}
+
+.border{
+    border: 2px ;
+}
+
+.border:hover{
+    
+    border: 2px solid #457b9d ;
+   
+}
+
+
+
+.navbar{
+    height: 80px;
+    background-color:#1d3557;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.menu p{
+    color: white;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.navlogo{
+    height: 60px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.logo{
+    background-image: url(world-logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    
+    
+}
+
+.text{
+    color: white;
+    font-weight: 700;
+    margin-left: 5px;
+    
+    
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+   
+    width: 800px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #457b9d;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+.filter{
+    height: 40px;
+    width: 60px;
+    background-color: #457b9d;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 40px;
+
+}
+
+.favourites{
+    padding: 5px;
+}
+
+
+.favourites p{
+    color: white;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+/**main**/
+
+.background-image img{
+    width: 1520px;
+   height: 800px;
+}
+
+.end-main{
+    background-color: #1d3557;
+    height: 30px;
+}
+
+footer{
+    height: 90px;
+    background-color: #1d3557;
+   
+    
+}
+
+.next{
+    height: 90px;
+    width: 90px;
+    background-color: #457b9d;
+    border:#457b9d;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50%;
+   
+    
+}
+
+.end-footer{
+    background-color: #1d3557;
+    height: 30px;
+}
